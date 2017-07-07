@@ -1,0 +1,6 @@
+Manifest-Version: 1.0
+AutoUpdate-Show-In-Client: true
+OpenIDE-Module: nl.coolcat007.netbeansmodules.goprojecttype
+OpenIDE-Module-Localizing-Bundle: nl/coolcat007/netbeansmodules/goprojecttype/Bundle.properties
+OpenIDE-Module-Specification-Version: 1.0
+
