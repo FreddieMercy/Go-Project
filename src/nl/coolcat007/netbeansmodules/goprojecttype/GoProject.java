@@ -207,7 +207,9 @@ public class GoProject implements Project {
         @Override
         public Node findPath(Node root, Object target) {
             //leave unimplemented for now
-            return null;
+            //return null;
+
+            return createLogicalView();// TODO: find the right way to implement it.
         }
 
     }

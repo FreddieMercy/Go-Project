@@ -220,7 +220,7 @@ public class LibProjectTemplatePanelVisual extends JPanel implements DocumentLis
         File projectLocation = (File) settings.getProperty("godir");
         if (projectLocation == null || projectLocation.getParentFile() == null || !projectLocation.getParentFile().isDirectory()) {
             String goPathEnv = System.getenv("GOPATH");
-            Path goPath = Paths.get(goPathEnv + File.separator + "src").toAbsolutePath();
+            Path goPath = Paths.get(goPathEnv + "src").toAbsolutePath();
             projectLocation = goPath.toFile();
         } else {
             projectLocation = projectLocation.getParentFile();
